@@ -1,0 +1,131 @@
+body {
+    background-image: url('fondo.jpeg'); /* Pone el fondo a la web. */
+    background-size: cover; /* Para que cubra toda la ventana sin importar el formato (grande/pequeña) */
+    background-attachment: fixed; /* Mantiene la imagen de fondo fija al hacer scroll. */
+    font-family: 'Calibri', sans-serif; /* Es la fuente principal. */
+    color: #f0f0f0; /* Color principal. */
+    margin: 0; /* Quita el margen. */
+    padding: 0; /* Quita el padding. */
+}
+
+header { /*Todas las caracteristicas afectaran a header. */
+    background-color: rgba(0, 0, 0, 0.7); /*Fondo negro semi transparente. */
+    padding: 20px; /* Pone padding. */
+    text-align: center; /* Centra el texto. */
+}
+
+h1 { /*Todas las caracteristicas afectaran a h1. */
+    color: white; /* Color de texto blanco. */
+    font-size: 48px; /* Su tamaño de texto. */
+    margin: 0; /* Quita el margen. */
+}
+
+nav ul { /*Todas las caracteristicas afectaran a ul. */
+    list-style-type: none; /* Elimina los puntos de ul. */
+    padding: 0; /* Elimina el padding. */
+}
+
+nav ul li { /*Todas las caracteristicas afectaran a los puntos li dentro de ul. */
+    display: inline; /* Se ponen los li en fila en vez de separados en columna. */
+    margin-right: 20px; /* Espacio para margin. */
+}
+
+nav ul li a { /*Todas las caracteristicas afectaran a "a". */
+    color: white; /* Color blanco. */
+    text-decoration: none; /* Quita el subrayado del href. */
+    font-weight: bold; /* Hace que sea negrita. */
+}
+
+section.intro { /*Todas las caracteristicas afectaran a la sección intro. */
+    max-width: 800px; /* Su tamaño max.. */
+    margin: 40px auto; /* Establece el margen horizontal y el vertical lo pone automático. */
+    text-align: center; /* Centra el texto. */
+    padding: 20px; /* Añade padding. */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo. */
+    border-radius: 8px; /* Bordes redondeados. */
+}
+
+section.intro h2 {
+    font-size: 36px; /* Tamaño. */
+    color: #fff; /* Color. */
+}
+
+section.intro p {
+    font-size: 18px; /* Define el tamaño de la fuente del párrafo. */
+    color: #ddd; /* Establece un color. */
+}
+
+.anime-selections {
+    display: flex; /* Utiliza caja flexible. */
+    justify-content: space-around; /* Distribuye los elementos. */
+    flex-wrap: wrap; /* Permite que los elementos se muevan. */
+    margin: 30px auto; /* Añade margen vertical y centra horizontalmente. */
+    max-width: 1000px; /* Limita el ancho máximo. */
+}
+
+.anime-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo. */
+    padding: 20px; /* Añade espacio interno alrededor. */
+    border-radius: 8px; /* Bordes redondeados. */
+    width: 300px; /* Establece un ancho fijo. */
+    text-align: center; /* Centra el texto. */
+    margin: 10px; /* Añade margen. */
+    transition: transform 0.3s ease-in-out; /* Transición suave. */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra. */
+}
+
+.anime-card:hover {
+    transform: translateY(-10px); /* Eleva la tarjeta. */
+}
+
+.anime-card img {
+    max-width: 100%; /* Limita el ancho de la imagen. */
+    border-radius: 5px; /* Añade bordes. */
+    margin-bottom: 15px; /* Añade margen. */
+}
+
+.anime-card h3 {
+    color: #fff; /* Color. */
+    font-size: 24px; /* Tamaño. */
+}
+
+.anime-card p {
+    color: #ccc; /* Color. */
+    font-size: 16px; /* Tamaño. */
+}
+
+.anime-button {
+    display: inline-block; /* En línea. */
+    margin-top: 15px; /* Margen. */
+    padding: 10px 20px; /* Padding. */
+    background-color: rgb(0, 44, 110); /* Color de fondo. */
+    color: white; /* Color de texxto. */
+    text-decoration: none; /* Elimina decoración. */
+    border-radius: 5px; /* Bordes redondeados. */
+    transition: background-color 0.3s; /* Transición. */
+}
+
+.anime-button:hover {
+    background-color: rgb(8, 22, 44); /* Cambia el color con hover. */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Color fondo. */
+    color: white; /* Color texto. */
+    text-align: center; /* Centra texto. */
+    padding: 20px; /* Añade padding. */
+}
+
+.social-media a {
+    margin: 0 10px; /* Añade margen. */
+}
+
+.social-media img {
+    width: 30px; /* Establece un ancho fijo. */
+    height: auto; /* Mantiene la proporción de las imágenes. */
+    transition: transform 0.3s; /* Transición. */
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Tamaño de la imagen al hacer hover. */
+}
